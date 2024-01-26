@@ -7,6 +7,8 @@ COPY ./requirements.txt /tmp/requirements.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
 COPY ./app /app
 # COPY ./app /appWORKDIR/app
+# COPY ./HeLLO Just Channging
+
 WORKDIR /app
 EXPOSE 8000
 
