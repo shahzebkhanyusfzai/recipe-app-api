@@ -6,8 +6,7 @@ ENV PYTHONUNBUFFERED 1
 COPY ./requirements.txt /tmp/requirements.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
 COPY ./app /app
-# COPY ./app /appWORKDIR/app
-# heloo
+# hello
 
 WORKDIR /app
 EXPOSE 8000
